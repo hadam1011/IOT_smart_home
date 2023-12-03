@@ -91,7 +91,7 @@ const HomePage = () => {
 
     useEffect(() => {
         if (user === null) {
-            window.location.href = '/login';
+            navigate('/login');
         } else {
             onValue(devicesRef, (snapshot) => {
                 const data = snapshot.val();
