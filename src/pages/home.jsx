@@ -71,7 +71,7 @@ const HomePage = () => {
         if (e.key === '1') {
             navigate('/');
         } else if (e.key === '2') {
-            navigate('logs');
+            navigate('/logs');
         }
     }
 
