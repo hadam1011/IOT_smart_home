@@ -50,6 +50,9 @@ const Log = () => {
                 rowKey={record => record.time}
                 dataSource={data}
                 columns={columns}
+                pagination={{
+                    pageSize: 5
+                }}
             />
         </div>
     )
